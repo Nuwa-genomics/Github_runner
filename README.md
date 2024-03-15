@@ -14,6 +14,9 @@ git clone https://github.com/Nuwa-genomics/Github_runner.git
 source Install_scripts/dockerconf.sh
 ```
 
+> [!IMPORTANT]  
+> Add env variables to docker-compose.yml file
+
 ### Bring up containers
 ```bash
 cd Docker
