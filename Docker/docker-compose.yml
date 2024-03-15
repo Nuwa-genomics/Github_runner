@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     restart: always
     environment:
-      - REPO=Nuwa-genomics
+      - REPO=Nuwa-genomics/Nuwa
       - TOKEN=<CHANGE>
     # deploy:
     #   mode: replicated
