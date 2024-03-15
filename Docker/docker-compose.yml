@@ -1,1 +1,13 @@
-
+version: '3.9'
+services:
+  runner:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    environment:
+      - REPO=<CHANGE>
+      - TOKEN=<CHANGE>
+    deploy:
+      mode: replicated
+      replicas: 4
