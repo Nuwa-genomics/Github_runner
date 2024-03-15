@@ -6,7 +6,7 @@ Docker install scripts for self-hosted runner
 ### Get files
 
 ```
-git clone 
+git clone https://github.com/Nuwa-genomics/Github_runner.git
 ```
 
 ### Install docker
