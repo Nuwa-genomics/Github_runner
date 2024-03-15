@@ -11,7 +11,8 @@ git clone https://github.com/Nuwa-genomics/Github_runner.git
 
 ### Install docker
 ```bash
-source Install_scripts/dockerconf.sh
+sudo chmod +x Install_scripts/dockerconf.sh
+sudo source Install_scripts/dockerconf.sh
 ```
 
 > [!IMPORTANT]  
