@@ -8,6 +8,6 @@ services:
     environment:
       - REPO=<CHANGE>
       - TOKEN=<CHANGE>
-    deploy:
-      mode: replicated
-      replicas: 4
+    # deploy:
+    #   mode: replicated
+    #   replicas: 4
