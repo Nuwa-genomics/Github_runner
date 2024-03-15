@@ -12,5 +12,4 @@ RUN chown -R docker ~docker && /home/docker/actions-runner/bin/installdependenci
 COPY start.sh start.sh
 RUN chmod +x start.sh
 USER docker
-RUN ./start.sh
-ENTRYPOINT ["./run.sh"]
+ENTRYPOINT ["./start.sh"]
