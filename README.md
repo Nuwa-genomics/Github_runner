@@ -16,7 +16,7 @@ sudo source Install_scripts/dockerconf.sh
 ```
 
 > [!IMPORTANT]  
-> Add env variables to docker-compose.yml file
+> Add token env variable to docker-compose.yml file
 
 ### Bring up containers
 ```bash
