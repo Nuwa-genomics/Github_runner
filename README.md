@@ -27,11 +27,11 @@ REPO=Nuwa-genomics/Nuwa
 TOKEN=<Your-token-here>
 RUNNER_VERSION="2.314.1"
 DEBIAN_FRONTEND=noninteractive
-USER=linuxuser
+USER=<Your-linux-user>
 ```
 
 > [!IMPORTANT]  
-> Remember to add your token!
+> Remember to add your token and linux username!
 
 **Now activate**
 ```bash
